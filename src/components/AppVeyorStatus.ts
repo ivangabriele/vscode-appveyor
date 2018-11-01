@@ -78,7 +78,7 @@ export default class AppVeyorStatus {
   }
 
   private setStatusTo(status: StatusContent, id: number = 0, date: string = ''): void {
-    let message: string = `$(${status.icon}) ${status.message}`
+    let message: string = `$(${status.icon})  ${status.message}`
     if (id !== 0) message += ` #${id}`
     if (date !== '') message += ` (${shortenMomentOutput(moment(date).fromNow())})`
 
