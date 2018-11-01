@@ -1,0 +1,61 @@
+{
+  "name": "vscode-appveyor",
+  "version": "0.0.0",
+  "displayName": "AppVeyor",
+  "description": "Check your project's AppVeyor CI status.",
+  "main": "./out/extension",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.28.2"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "scripts": {
+    "compile": "tsc -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test",
+    "preversion": "npm run compile",
+    "postversion": "git push origin HEAD & git push --tags",
+    "vscode:prepublish": "npm run compile",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "await-to-js": "^2.0.1",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.4",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.1",
+    "fs-extra": "^7.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.4",
+    "vscode": "^1.1.21"
+  },
+  "author": {
+    "name": "Ivan Gabriele",
+    "email": "ivan.gabriele@gmail.com",
+    "url": "https://www.ivangabriele.com"
+  },
+  "publisher": "ivangabriele",
+  "icon": "res/icon.png",
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "extension",
+    "appveyor",
+    "visual studio code",
+    "vsc",
+    "vscode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivangabriele/vscode-appveyor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivangabriele/vscode-appveyor/issues"
+  },
+  "homepage": "https://github.com/ivangabriele/vscode-appveyor#readme"
+}
