@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "lib": [
+      "es7"
+    ],
 		"moduleResolution": "node",
 		"noImplicitAny": false,
 		"removeComments": false,
