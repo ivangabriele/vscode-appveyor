@@ -19,7 +19,9 @@
 
 ## Roadmap
 
-1. Support for private repositories
+1. Bitbucket public repos support
+2. Gitlab public repos support
+3. Private repos support
 
 ## Issues & Feature Requests
 
