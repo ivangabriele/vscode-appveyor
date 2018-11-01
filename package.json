@@ -9,7 +9,7 @@
     "vscode": "^1.28.2"
   },
   "activationEvents": [
-    "*"
+    "appveyor.yml"
   ],
   "scripts": {
     "compile": "tsc -p ./",
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "await-to-js": "^2.0.1",
+    "command-exists": "^1.2.8",
     "moment": "^2.22.2"
   },
   "devDependencies": {
