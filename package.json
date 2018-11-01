@@ -9,7 +9,7 @@
     "vscode": "^1.28.2"
   },
   "activationEvents": [
-    "appveyor.yml"
+    "workspaceContains:appveyor.yml"
   ],
   "scripts": {
     "compile": "tsc -p ./",
