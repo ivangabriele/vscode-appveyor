@@ -19,9 +19,10 @@
 
 ## Roadmap
 
-1. Bitbucket public repos support
-2. Gitlab public repos support
-3. Private repos support
+1. Open AppVeyor build url when the SBI is clicked
+2. Bitbucket public repos support
+3. Gitlab public repos support
+4. Private repos support
 
 ## Issues & Feature Requests
 
