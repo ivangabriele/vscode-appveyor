@@ -1,6 +1,6 @@
 {
   "name": "vscode-appveyor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "AppVeyor",
   "description": "Check your project's AppVeyor CI status.",
   "main": "./out/extension",
