@@ -1,9 +1,12 @@
 import { spawn, SpawnOptions } from 'child_process'
+import { workspace } from 'vscode'
+
+const cwd = workspace.workspaceFolders[0].uri.fsPath
 
 export default async function (
   command: string,
   args: string[] = [],
-  options: SpawnOptions = {},
+  options: SpawnOptions = { cwd },
 ): Promise<any> {
   return new Promise((resolve, reject) => {
     let res, stderr = '', stdout = ''
