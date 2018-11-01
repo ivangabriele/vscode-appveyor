@@ -1,4 +1,4 @@
-# Heroku Extension for Visual Studio Code
+# AppVeyor Extension for Visual Studio Code
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/ivangabriele.vscode-appveyor.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-appveyor)
@@ -39,6 +39,6 @@ To be able to contribute to TFS development, you need to be at ease with **Types
 
 #### Links
 
-- [Heroku extension on Github](https://github.com/ivangabriele/vscode-appveyor)
-- [Heroku extension on Visual Studio Market Place](https://marketplace.visualstudio.com/items/ivangabriele.vscode-appveyor)
+- [AppVeyor extension on Github](https://github.com/ivangabriele/vscode-appveyor)
+- [AppVeyor extension on Visual Studio Market Place](https://marketplace.visualstudio.com/items/ivangabriele.vscode-appveyor)
 - [MIT Licence](https://github.com/ivangabriele/vscode-appveyor/blob/master/LICENSE)
