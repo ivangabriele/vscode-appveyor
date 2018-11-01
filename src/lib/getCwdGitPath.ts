@@ -4,7 +4,6 @@ import { sync as commandExistsSync } from 'command-exists'
 import exec from '../helpers/exec'
 
 const SUPPORTED_REMOTES = "git@github\\.com:|https:\\/\\/github\\.com\\/"
-console.log(SUPPORTED_REMOTES)
 const SUPPORTED_REMOTES_REGEX = new RegExp(SUPPORTED_REMOTES)
 const GIT_PATH_REGEX = new RegExp(`(${SUPPORTED_REMOTES})([a-zA-Z0-9\\-]+\\/[a-zA-Z0-9\\-]+)`)
 
